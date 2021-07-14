@@ -110,6 +110,9 @@ Players Blogs Style
     height: 270px;
     overflow: hidden;
 }
+.player-info h2 {
+    font-weight: 700;
+}
 p {
     text-align: inherit;
 }
@@ -273,6 +276,9 @@ footer {
     .thumbnail img {
         width: 328px;
         height: 270px;
+    }
+    .player-info h2 {
+        font-weight: 700;
     }
     p {
         text-align: inherit;
