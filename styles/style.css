@@ -235,14 +235,15 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 25px;
-        margin: 50px 0px 50px 28px;
+        margin: 50px 0px 25px 0;
+        padding: 0 0 0 9px;
     }
     .blog {
         display: flex;
         flex-direction: column;
         width: 330px;
         height: 474px;
-        padding: 15px;
+        padding: 5px;
         box-shadow: 0px 0px 40px #00000026;
     }
     .thumbnail img {
@@ -309,20 +310,20 @@ footer {
     .logo img {
         width: 240px;
         height: 53px;
-        top: calc(50% - 32px/2 + 3613.5px);
     }
     .social-media {
-        padding-left: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        padding: 20px 0 0 0;
+        margin: 0 0 0 0;
     }
     .social-icon {
         color: gray;
         font-size: 25px;
-        margin-right: 0px;
+        margin: 0 0 0 0;
+        padding: 0 5px 0 5px;
         
     }
     .copyright {
-        margin: 0px 0px 0px 0px;
+        margin: 0 0 0 0;
+        padding: 10px 0 150px 0;
     }
 }
